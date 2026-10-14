@@ -1,0 +1,36 @@
+{
+  "data_note": "SYNTHETIC DEMONSTRATION ONLY \u2014 not a real-world performance estimate.",
+  "train_pairs": 1800,
+  "test_pairs": 600,
+  "test_positive_pairs": 300,
+  "accuracy": 1.0,
+  "precision_duplicate": 1.0,
+  "recall_duplicate": 1.0,
+  "f1_duplicate": 1.0,
+  "confusion_matrix_labels_0_then_1": [
+    [
+      300,
+      0
+    ],
+    [
+      0,
+      300
+    ]
+  ],
+  "feature_names": [
+    "address_similarity",
+    "locality_match",
+    "city_match",
+    "property_type_match",
+    "area_relative_difference",
+    "both_ids_present",
+    "property_id_match",
+    "description_similarity"
+  ],
+  "model": "RandomForestClassifier",
+  "baseline_accuracy": 0.8617,
+  "baseline_precision_duplicate": 0.9954,
+  "baseline_recall_duplicate": 0.7267,
+  "baseline_f1_duplicate": 0.8401,
+  "class_balance_note": "The synthetic test set is deliberately balanced for demonstration; real-world duplicate prevalence will differ."
+}
